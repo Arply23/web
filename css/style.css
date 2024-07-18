@@ -31,3 +31,30 @@ a {
 .footer {
     background-color: #f8f9fa;
 }
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay with 60% opacity */
+}
+
+
+
+/* .header-top {
+    position: relative;
+    color: white;
+    background: url('images/home_background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.header-top .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+} */
