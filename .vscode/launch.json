@@ -8,8 +8,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\st0rmtr00per\\web\\index.html"
+            "name": "Open home.html",
+            "file": "c:\\Users\\st0rmtr00per\\web\\home.html"
         }
     ]
 }
