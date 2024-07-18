@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.jpg">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>О нас - Дом Монолит</title>
+</head>
+
+<body>
+    <header class="site-header"> 
+        <div class="bg-dark text-white py-2">
+            <div class="container d-flex justify-content-between align-items-center">
+                <span>Строительство домов под ключ</span>
+                <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center mr-4">
+                        <img src="images/location.svg" alt="Москва" class="mr-2" style="width: 20px;">
+                        <span>Москва</span>
+                    </div>
+                    <a href="tel:+7 926 679 2247" class="text-white d-flex align-items-center">
+                        <img src="images/phone.svg" alt="+7 926 679 2247" class="mr-2" style="width: 20px;">
+                        <span>+7 926 679 2247</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-head-m.jpg" alt="Дом Монолит" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">Проекты</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">О нас <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Галерея</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container my-5">
+        <h1 class="display-4 text-center">О нас</h1>
+        <p class="lead text-center">Узнайте больше о нашей компании и наших принципах</p>
+        
+        <div class="row my-4">
+            <div class="col-md-12 text-center">
+                <img src="images/team_photo.jpg" alt="Наша команда" class="img-fluid" style="max-width: 80%;">
+            </div>
+        </div>
+
+        <div class="row my-4">
+            <div class="col-md-12">
+                <h2 class="text-center mb-4">Принципы и преимущества</h2>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <img src="images/high_quality.png" alt="Высокое качество строительства" class="mb-2" style="width: 50px;">
+                        <h5>Высокое качество строительства</h5>
+                        <p>Мы гарантируем превосходное качество каждого проекта.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/individual_approach.png" alt="Индивидуальный подход" class="mb-2" style="width: 50px;">
+                        <h5>Индивидуальный подход к каждому клиенту</h5>
+                        <p>Каждое строительство учитывает уникальные потребности клиента.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/modern_technology.png" alt="Современные технологии" class="mb-2" style="width: 50px;">
+                        <h5>Использование современных технологий и материалов</h5>
+                        <p>Мы применяем новейшие технологии для долговечности и комфорта.</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <img src="images/deal.png" alt="Прозрачные условия" class="mb-2" style="width: 50px;">
+                        <h5>Прозрачные условия сотрудничества</h5>
+                        <p>Честность и открытость на всех этапах работы.</p>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <img src="images/guarantee.png" alt="Гарантии" class="mb-2" style="width: 50px;">
+                        <h5>Гарантии на все виды работ</h5>
+                        <p>Мы предоставляем гарантии на все выполненные работы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>            
+
+        <div class="row my-4">
+            <div class="col-md-12">
+                <h2>Зоны строительства</h2>
+                <p>Мы осуществляем строительство по всей Москве и Московской области. Также доступны проекты в других регионах России по индивидуальному запросу.</p>
+            </div>
+        </div>
+
+        <div class="row my-4">
+            <div class="col-md-12 text-center">
+                <img src="images/zones_photo.png" alt="Зоны строительства" class="img-fluid" style="max-width: 80%;">
+            </div>
+        </div>
+
+        <div class="row my-4">
+            <div class="col-md-12">
+                <h2>Форма обратной связи</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" class="form-control" id="name" placeholder="Введите ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Введите ваш email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Введите ваше сообщение"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="thankYouModalLabel">Спасибо</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Спасибо, наш менеджер скоро свяжется с Вами.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <span class="text-muted">© 2024 Дом Монолит</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            $('#thankYouModal').modal('show');
+        });
+    </script>
+</body>
+</html>
