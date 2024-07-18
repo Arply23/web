@@ -7,19 +7,16 @@
     <link rel="icon" href="images/logo.jpg">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Дом Монолит - Строительство частных домов под ключ</title>
+    <title>Галерея - Дом Монолит</title>
     <style>
-        .custom-img {
-            width: 160px; /* Adjust the width as needed */
-            height: auto;
-            display: block;
-            margin: 0 auto; /* Center the image */
-            cursor: pointer; /* Change cursor to pointer for clickable effect */
-        }
-    </style>    
+        .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;}
+    </style>
 </head>
 
-<body>
+<body>    
     <header class="site-header"> 
         <div class="bg-dark text-white py-2">
             <div class="container d-flex justify-content-between align-items-center">
@@ -46,8 +43,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="home.html">Главная <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Главная</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="catalog.html">Проекты</a>
@@ -55,8 +52,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">О нас</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Галерея</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="gallery.html">Галерея <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contacts.html">Контакты</a>
@@ -67,49 +64,49 @@
         </nav>
     </header>
     
-    <div class="jumbotron jumbotron-fluid text-center" style="position: relative; background: url('images/home_background.jpg') no-repeat center center; background-size: cover;">
-        <div class="overlay"></div>
-        <div class="container text-white" style="position: relative; z-index: 1;">
-            <h1 class="display-4"><strong>Добро пожаловать в Дом Монолит!</strong></h1>
-            <p class="lead"><strong>Мы строим качественные и надежные дома под ключ</strong></p>
-        </div>
-    </div>
-
     <div class="container my-5">
+
+        <h1 class="display-4 text-center">Галерея проектов</h1>
+        <p class="lead text-center">Здесь представленны уже построенные нами дома</p>
+        <div style="height: 50px;"></div>
+
+
         <div class="row">
-            <div class="col-md-6 mb-4">
-                <div class="text-center">
-                    <a href="catalog.html">
-                        <img src="images/project_icon.jpg" alt="Проекты" class="custom-img mb-2">
-                    </a>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/house_2.jpg" class="card-img-top" alt="Проект дома">
+                    <div class="card-body">
+                        <h5 class="card-title">Ривердейл</h5>
+                        <p class="card-text">12,3x18,4 м | 210,45 м²</p>
+                        <p class="card-text"><strong>9,00 млн. ₽</strong></p>
+                        <p class="card-text"><strong>4 мес.</strong></p>
+                    </div>
                 </div>
-                <p class="text-center">Ознакомьтесь с каталогом наших проектов</p>
             </div>
-            <div class="col-md-6 mb-4">
-                <div class="text-center">
-                    <a href="about.html">
-                        <img src="images/company_icon.png" alt="О нас" class="custom-img mb-2">
-                    </a>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/house_4.jpg" class="card-img-top" alt="Проект дома">
+                    <div class="card-body">
+                        <h5 class="card-title">Скайлайн</h5>
+                        <p class="card-text">10,5x18,0 м | 190,50 м²</p>
+                        <p class="card-text"><strong>7,95 млн. ₽</strong></p>
+                        <p class="card-text"><strong>3 мес.</strong></p>
+                    </div>
                 </div>
-                <p class="text-center">Узнайте о нашей компании и команде</p>
             </div>
-            <div class="col-md-6 mb-4">
-                <div class="text-center">
-                    <a href="gallery.html">
-                        <img src="images/gallery_icon.webp" alt="Галерея" class="custom-img mb-2">
-                    </a>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/house_5.jpg" class="card-img-top" alt="Проект дома">
+                    <div class="card-body">
+                        <h5 class="card-title">Хайленд</h5>
+                        <p class="card-text">11,0x19,5 м | 200,00 м²</p>
+                        <p class="card-text"><strong>8,10 млн. ₽</strong></p>
+                        <p class="card-text"><strong>3.5 мес.</strong></p>
+                    </div>
                 </div>
-                <p class="text-center">Ознакомьтесь с уже построенными домами</p>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="text-center">
-                    <a href="contacts.html">
-                        <img src="images/contacts_icon.png" alt="Контакты" class="custom-img mb-2">
-                    </a>
-                </div>
-                <p class="text-center">Свяжитесь с нами</p>
             </div>
         </div>
+
     </div>
 
     <footer class="bg-light text-center py-3">

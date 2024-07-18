@@ -41,6 +41,14 @@ a {
     background: rgba(0, 0, 0, 0.6); /* Dark overlay with 60% opacity */
 }
 
+.custom-btn {
+    width: auto;
+    margin: 0 auto; /* Center the button */
+}
+.custom-img {
+    width: 100px;
+    height: auto;
+}
 
 
 /* .header-top {
