@@ -38,31 +38,62 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay with 60% opacity */
+    background: rgba(0, 0, 0, 0.6);
+    /* Dark overlay with 60% opacity */
 }
 
 .custom-btn {
     width: auto;
-    margin: 0 auto; /* Center the button */
+    margin: 0 auto;
+    /* Center the button */
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .custom-img {
-    width: 100px;
+    width: 160px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
-
-/* .header-top {
-    position: relative;
-    color: white;
-    background: url('images/home_background.jpg') no-repeat center center;
-    background-size: cover;
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-.header-top .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-} */
+.card {
+    animation: fadeIn 0.5s ease-in-out;
+    animation-fill-mode: both; /* Ensures the animation applies to the element */
+}
+
+.map-anim {
+    animation: fadeIn 0.5s ease-in-out;
+    animation-fill-mode: both; /* Ensures the animation applies to the element */
+}
+
+.rounded-image {
+    border-radius: 10%; /* This creates a circular/round effect */
+    object-fit: cover; /* This ensures the image fills the container while maintaining aspect ratio */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Add a subtle box shadow */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    animation: fadeIn 0.5s ease-in-out;
+    animation-fill-mode: both; /* Ensures the animation applies to the element */
+  }
+  
+  .rounded-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+  }

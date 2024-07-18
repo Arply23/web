@@ -6,17 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/logo.jpg">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Дом Монолит - Строительство частных домов под ключ</title>
-    <style>
-        .custom-img {
-            width: 160px; /* Adjust the width as needed */
-            height: auto;
-            display: block;
-            margin: 0 auto; /* Center the image */
-            cursor: pointer; /* Change cursor to pointer for clickable effect */
-        }
-    </style>    
 </head>
 
 <body>
@@ -25,10 +16,10 @@
             <div class="container d-flex justify-content-between align-items-center">
                 <span>Строительство домов под ключ</span>
                 <div class="d-flex align-items-center">
-                    <div class="d-flex align-items-center mr-4">
+                    <a href="contacts.html" class="d-flex align-items-center mr-4 text-white">
                         <img src="images/location.svg" alt="Москва" class="mr-2" style="width: 20px;">
                         <span>Москва</span>
-                    </div>
+                    </a>
                     <a href="tel:+7 926 679 2247" class="text-white d-flex align-items-center">
                         <img src="images/phone.svg" alt="+7 926 679 2247" class="mr-2" style="width: 20px;">
                         <span>+7 926 679 2247</span>
@@ -41,13 +32,14 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logo-head-m.jpg" alt="Дом Монолит" style="height: 40px;">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="home.html">Главная <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="catalog.html">Проекты</a>
@@ -66,14 +58,19 @@
             </div>
         </nav>
     </header>
-    
-    <div class="jumbotron jumbotron-fluid text-center" style="position: relative; background: url('images/home_background.jpg') no-repeat center center; background-size: cover;">
+
+    <div style="height: 20px;"></div>
+
+    <div class="jumbotron jumbotron-fluid text-center"
+        style="position: relative; background: url('images/home_background.jpg') no-repeat center center; background-size: cover;">
         <div class="overlay"></div>
         <div class="container text-white" style="position: relative; z-index: 1;">
             <h1 class="display-4"><strong>Добро пожаловать в Дом Монолит!</strong></h1>
             <p class="lead"><strong>Мы строим качественные и надежные дома под ключ</strong></p>
         </div>
     </div>
+
+    <div style="height: 20px;"></div>
 
     <div class="container my-5">
         <div class="row">
@@ -83,7 +80,8 @@
                         <img src="images/project_icon.jpg" alt="Проекты" class="custom-img mb-2">
                     </a>
                 </div>
-                <p class="text-center">Ознакомьтесь с каталогом наших проектов</p>
+                <h2 class="text-center font-weight-bold">Проекты</h2>
+                <p class="text-center font-size-lg">Ознакомьтесь с каталогом наших проектов</p>
             </div>
             <div class="col-md-6 mb-4">
                 <div class="text-center">
@@ -91,7 +89,8 @@
                         <img src="images/company_icon.png" alt="О нас" class="custom-img mb-2">
                     </a>
                 </div>
-                <p class="text-center">Узнайте о нашей компании и команде</p>
+                <h2 class="text-center font-weight-bold">О нас</h2>
+                <p class="text-center font-size-lg">Узнайте о нашей компании и команде</p>
             </div>
             <div class="col-md-6 mb-4">
                 <div class="text-center">
@@ -99,7 +98,8 @@
                         <img src="images/gallery_icon.webp" alt="Галерея" class="custom-img mb-2">
                     </a>
                 </div>
-                <p class="text-center">Ознакомьтесь с уже построенными домами</p>
+                <h2 class="text-center font-weight-bold">Галерея</h2>
+                <p class="text-center font-size-lg">Ознакомьтесь с уже построенными домами</p>
             </div>
             <div class="col-md-6 mb-4">
                 <div class="text-center">
@@ -107,7 +107,8 @@
                         <img src="images/contacts_icon.png" alt="Контакты" class="custom-img mb-2">
                     </a>
                 </div>
-                <p class="text-center">Свяжитесь с нами</p>
+                <h2 class="text-center font-weight-bold">Контакты</h2>
+                <p class="text-center font-size-lg">Свяжитесь с нами</p>
             </div>
         </div>
     </div>
@@ -122,4 +123,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
