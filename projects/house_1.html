@@ -110,12 +110,47 @@
                         <p class="lead">Цена в кредит: <strong>34 164 ₽/мес</strong></p>
                         <p class="text-danger">Дома в кредит от 4,7% годовых</p>
                         <div class="d-flex flex-column">
-                            <button class="btn btn-danger mb-2">Заказать строительство</button>
+                            <button class="btn btn-danger mb-2" data-toggle="modal" data-target="#feedbackModal">Заказать строительство</button>
                             <button class="btn btn-outline-danger mb-2">Купить в кредит</button>
                             <button class="btn btn-outline-danger mb-2">Получить смету</button>
                             <button class="btn btn-outline-danger mb-2">Заказать звонок</button>
                         </div>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Modal -->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feedbackModalLabel">Заказать строительство</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" class="form-control" id="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Ваш телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ваш email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Ваше сообщение" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
                 </div>
             </div>
         </div>
